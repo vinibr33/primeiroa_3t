@@ -1,17 +1,32 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primeiro A</title>
-     <script src="estudo.js"></script>
+    <title>Terceiro Trimestre</title>
+    <script src="estudo.js"></script>
+
 </head>
 <body>
 
-    Capital: <input id="valor" type="text"><br>
-    Juros(mensais): <input id="juros" type="text"><br>
-    <button onclick="calcula()" > Enviar </button>
+Valor: <input id="valor" type="text"> <br>
+Taxa de Juros: <input id="juros" type="text"> <br>
+<button onclick="total()">Enviar</button>
+
+<br><br><br><br>
+Valor 1: <input id="v1" type="text"><br>
+<button onclick="operacao('+')">Soma</button>
+<button onclick="operacao('-')">Subtração</button>
+<button onclick="operacao('*')">Multiplicação</button>
+<button onclick="operacao('/')">Divisão</button>
+<br>
+
+<br>
+Valor 2 <input id="v2" type="text"><br>
+<button onclick="calcule()">Calcule</button>
+<span id="resultado">0,00</span>
+
 
 </body>
 </html>
